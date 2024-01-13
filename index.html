@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>AniWiki</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com//css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="/main.html"><img src="images/AniWiki_Logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="bx bx-x" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="/main.html">HOME</a></li>
+                <li><a href="/contact.html">CONTACT</a></li>
+                <li><a href="/about.html">ABOUT</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="showMenu()"></i>
+    </nav>
+    
+<div class="text-box">
+    <h1>A library about the world of anime</h1>
+    <p>Welcome to AniWiki, your ultimate gateway to the enchanting realm of anime! 
+        Immerse yourself in a world where vibrant characters and captivating stories.
+    </p>
+    <ul></ul>
+    <a href="/main.html" class="visit">Visit Us To Know More</a>
+</div>
+
+</section>
+
+<!----------what we can offer-------->
+
+<section class="content">
+    <h1>Content that we Offer</h1>
+    <p>Whether you're looking for recommendations based on your preferences, seeking insights into the 
+        diverse genres within anime, or curious about the history and cultural impact of this vibrant art 
+        form, our platform has you covered.</p>
+
+    <div class="row">
+        <div class="content-col">
+            <h3>Your Favorite Animes</h3> 
+            <p>Welcome to our anime information hub, where we cater to the diverse tastes of anime 
+                enthusiasts! Whether you're a seasoned otaku or just starting your anime journey, we 
+                offer a treasure trove of information about your favorite anime series. Dive into our 
+                comprehensive database that spans genres, characters, and storylines, providing detailed 
+                insights into the captivating worlds of anime.</p>
+        </div>
+        <div class="content-col">
+            <h3>Anime's History</h3> 
+            <p>Welcome to our comprehensive exploration of the rich and captivating world of anime history. 
+                Delve into the origins, evolution, and cultural impact of this dynamic form of animated entertainment. 
+                From its humble beginnings in early 20th-century Japan to the global phenomenon it is today, we offer 
+                users a curated journey through the milestones, influential creators, and iconic moments that have shaped 
+                anime into the vibrant and diverse medium it is. </p>
+        </div>
+        <div class="content-col">
+            <h3>Anime Culture</h3> 
+            <p>Dive into the vibrant community surrounding anime enthusiasts, conventions, and fan art. Gain an understanding of the cultural 
+                nuances and unique storytelling elements that make anime a beloved and distinctive form of entertainment. Whether you're seeking 
+                recommendations, exploring the history of specific studios, or simply wanting to stay informed about the latest developments, we 
+                are your go-to resource for all things anime.</p>
+        </div>
+    </div>
+</section> 
+ 
+<!----->
+<section class="genres">          
+    <h1>Anime Genres</h1>
+    Anime is a diverse and vibrant medium that encompasses a wide range of genres, catering to audiences with varied interests. 
+    Here's a brief introduction to some popular anime genres:
+    <div class="row">
+        <div class="genres-col">
+            <img src="images/genres/shonen.png">
+            <div class="layer">     
+                <h3>SHONEN</h3>
+            </div>
+        </div>
+        <div class="genres-col">
+            <img src="images/genres/romance.jpg">
+            <div class="layer">
+                <h3>ROMANCE</h3>
+            </div>
+        </div>
+        <div class="genres-col">
+            <img src="images/genres/comedy.jpg">
+            <div class="layer">
+                <h3>COMEDY</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------------Javascript for Toggle Menu------------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0"; 
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"; 
+    }
+</script>
+</body>
+</html> 
