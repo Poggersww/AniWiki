@@ -1,4 +1,3 @@
-
 # AniWiki
 A library about the world of anime
 Welcome to AniWiki, your ultimate gateway to the enchanting realm of anime! 
@@ -13,3 +12,5 @@ Welcome to AniWiki, your ultimate gateway to the enchanting realm of anime!
 
 - [@Poggersww](https://github.com/Poggersww)
 
+
+![Logo](https://i.ibb.co/6wps6Gz/Ani-Wiki-Logo.png)
