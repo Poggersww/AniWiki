@@ -13,3 +13,5 @@ Welcome to AniWiki, your ultimate gateway to the enchanting realm of anime!
 ## Authors
 
 - [@Poggersww](https://www.github.com/poggersww)
+
+![Logo](https://i.ibb.co/6wps6Gz/Ani-Wiki-Logo.png)
