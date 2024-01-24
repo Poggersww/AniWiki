@@ -16,4 +16,6 @@ Welcome to AniWiki, your ultimate gateway to the enchanting realm of anime!
 
 - [@Elky08](https://github.com/Elky08)
 
+- [@coxaciel](https://github.com/Blanketthemcmodder)
+
 ![Logo](https://i.ibb.co/6wps6Gz/Ani-Wiki-Logo.png)
