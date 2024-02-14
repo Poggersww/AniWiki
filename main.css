@@ -34,7 +34,7 @@ nav{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #f9004d;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -51,3 +51,27 @@ nav{
     transform: translate(-50%,-50%);
     text-align: center;
 }
+form {
+    background-color: #4654e1;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    align-items: center;
+  }
+  ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+  }
+  
+  
