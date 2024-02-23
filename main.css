@@ -115,3 +115,39 @@ nav .bx{
         padding: 30px;
     }
 }
+.search {
+    --padding: 20px;
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background: #c7c7c7;
+    width: 600px;
+    transition: background 0.5s;
+}
+
+.search:focus-within {
+    background: #fff;
+}
+
+.search-input
+{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 300px;
+    flex: 1;
+}
+
+.search-input::placeholder{
+    color: rgba(0,0,0,0.95);
+}
+
+
+
