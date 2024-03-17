@@ -2,17 +2,18 @@
 <html>
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
-    <title>Welcome to AniWiki</title>
+    <title>AniWiki</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com//css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Sree+Krushnadevaraya&display=swap" rel="stylesheet">
 </head>
 <body>
 <section class="header">
     <nav>
         <a href="/main.html"><img src="images/AniWiki_Logo.png"></a>
+        <h6>AniWiki</h6>
         <div class="nav-links" id="navLinks">
             <i class="bx bx-x" onclick="hideMenu()"></i>
             <ul>
@@ -21,21 +22,27 @@
                 <li><a href="/about.html">ABOUT</a></li>
             </ul>
         </div>
-        <i class='bx bx-menu' onclick="showMenu()"></i>
     </nav>
-    <div class="search">
-        <span class="search-icon material-symbols-outlined">search</span>
-        <input class="search-input" type="search" placeholder="Search"> 
+    <div class="col">
+        <h5>Comedy</h5>
+        <div class="card">
+            <a href="/Genres/comedy.html">
+                <img class="preview" src="images/genres/comedy.jpg">
+            </a>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptas quibusdam hic exercitationem ut enim vel labore repudiandae, temporibus maiores dolores quis suscipit dolorem, molestias expedita facilis libero harum debitis.</p>
     </div>
-<script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right = "0"; 
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px"; 
-    }
-</script>
+</section>
+<section class="header">
+    <div class="col">
+        <h5>Slice of Life</h5>
+        <div class="card">
+            <a href="/Genres/slice_of_life.html">
+                <img class="preview" src="images/genres/slice_of_life.png">
+            </a>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem voluptas quibusdam hic exercitationem ut enim vel labore repudiandae, temporibus maiores dolores quis suscipit dolorem, molestias expedita facilis libero harum debitis.</p>
+    </div>
 </section>
 </body>
 </html> 
