@@ -6,7 +6,6 @@
     font-family: 'Quicksand', sans-serif;
 }
 .header{
-    min-height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Background.jpg);
     background-position: center;
@@ -92,7 +91,6 @@ nav .bx{
     width: 50%;
     padding: 10px;
     text-align: center;
-    cursor: pointer;
 }
 h5{
     padding: 150px 0px 0px;
@@ -100,6 +98,9 @@ h5{
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 50px;
+    background: -webkit-linear-gradient(#f8d9f3, hsla(17, 77%, 60%, 0.575));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 p{
     color: #8f8f8f;
@@ -109,9 +110,19 @@ p{
     width: 750PX;
     margin: 0 auto;
     text-align: justify;
+    transition: 0.3s;   
+}
+p:hover{
+    color: #fff;
+    font-size: 25px;
 }
 img{
     border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+img:hover{
+    transform: scale(1.25);
 }
 h6{
     font-size: 75px;
