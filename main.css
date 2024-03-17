@@ -111,6 +111,7 @@ p{
     margin: 0 auto;
     text-align: justify;
     transition: 0.3s;   
+    padding-bottom: 50px;
 }
 p:hover{
     color: #fff;
@@ -130,4 +131,8 @@ h6{
     background: -webkit-linear-gradient(#e6996f, #eee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+}
+h6:hover{
+    transform: scale(1.10);
 }
